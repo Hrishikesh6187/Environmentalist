@@ -1,0 +1,111 @@
+body, html {
+    height: 100%; 
+  }
+  
+  .bgi{
+   background-image: url("ocean.jpg");
+    filter: blur(8px);
+    height: 3820px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+  }
+  .bgc{
+    padding-top: 1px;;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.2); 
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    left: 2.5%;
+    width: 95%;          
+    text-align: center;
+  }
+  .header {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.2);
+    color: white; 
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  .menubar {
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.2); 
+  }
+  
+  .menubar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px ;
+    text-decoration:salmon;
+    font-family:"Gill Sans";
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .menubar a:hover {
+    background-color: #86fae7;
+    color: rgb(0, 0, 0);
+  }
+  
+  .menubar a.active {
+    background-color: #00ccff;
+    color: black;
+  }
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background: #044750;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .mnctr {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.mncen {
+    position: absolute;
+    font-size: 72px;
+    font-family:"Moon 2.0 Bold";
+    color:rgb(148, 0, 247);
+    text-emphasis-color: purple;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+  position: absolute;
+  
+  font-size: 72px;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, .7); 
+  top: 400px;
+  left: 350px;
+  
+}
+.img{
+    float: left;
+    height: 75px;
+    width:350px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.menu {
+  width:100%;
+  position: absolute;
+  font-size: 72px;
+  font-family:"Moon 2.0 Bold";
+  top: 0%;
+  left: 0%;
+
+}
